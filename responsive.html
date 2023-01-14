@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .food{
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .image{
+            height: 100px;
+        }
+        @media screen and (max-width: 576px){
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .food{
+                background-color: skyblue;
+            }
+        }
+        @media  screen and (min-width: 577px) and (max-width: 992px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .food{
+                background-color: bisque;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-1</h2>
+            <h4>price: 100TK</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo at harum laudantium, illum facere tenetur pariatur nostrum ducimus sequi, earum eos culpa magnam aspernatur quibusdam dolore? Repellendus obcaecati assumenda dolores.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-2</h2>
+            <h4>price: 200TK</h4>
+            <p>Nam ipsam illo voluptate sunt illum nihil assumenda dolore ea minus laudantium sed nesciunt laborum, nostrum voluptatem eos sapiente eius repudiandae aliquid numquam odit consequuntur tempora repellendus veniam? Fugit, tenetur?</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-3</h2>
+            <h4>price: 300TK</h4>
+            <p>Ducimus, pariatur nemo! Earum, aliquam sint? Rem asperiores fuga voluptates aliquam quam quidem odio sequi cum quisquam similique? Tempora harum nemo ea sapiente reprehenderit perferendis vitae atque sint et laborum.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-4</h2>
+            <h4>price: 400TK</h4>
+            <p>Illo facere eaque provident unde temporibus. Deserunt omnis dolore, adipisci corrupti, aperiam ducimus distinctio quibusdam nam rerum accusantium alias reprehenderit quaerat voluptate repellendus molestiae. Nisi cum omnis neque optio veniam?</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-5</h2>
+            <h4>price: 500TK</h4>
+            <p>Exercitationem, numquam sunt possimus porro, consectetur molestias, sapiente quos eaque consequatur ex saepe pariatur quis error doloremque quisquam! Qui voluptatem quibusdam error autem, nobis ut dolores temporibus fugit et earum.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-6</h2>
+            <h4>price: 600TK</h4>
+            <p>Adipisci earum ut iste porro voluptates dolorem pariatur unde, alias numquam accusamus. Qui ea totam perspiciatis deleniti! Dicta modi, officiis est cupiditate in suscipit perspiciatis molestias ducimus itaque? Beatae, accusantium?</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-7</h2>
+            <h4>price: 700TK</h4>
+            <p>Dignissimos maiores eius quis rerum consectetur voluptatibus, excepturi minus fugiat quisquam veritatis laudantium fugit, unde ab quas sed ipsum ullam minima, expedita ea modi nobis esse odio. Nostrum, accusantium minima.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-8</h2>
+            <h4>price: 800TK</h4>
+            <p>Qui corrupti dignissimos expedita quam ducimus, optio debitis eos unde fuga tenetur architecto harum autem dolorem aliquid consequuntur magni ex vitae distinctio? Laborum itaque explicabo, nam quod deleniti tempore adipisci!</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-9</h2>
+            <h4>price: 900TK</h4>
+            <p>Quae, voluptates. Itaque magnam tempora obcaecati accusamus molestias. Consectetur soluta sunt atque commodi alias eveniet dolorum doloribus vitae aspernatur magnam! Labore cumque vitae blanditiis necessitatibus eveniet cum tempora unde id!</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-10</h2>
+            <h4>price: 1000TK</h4>
+            <p>Possimus odit eveniet, dolorem quo et illum mollitia recusandae, ut esse necessitatibus neque iste quasi dicta nam voluptatem distinctio unde vel? Architecto expedita nemo molestias ratione, earum perspiciatis in! Voluptas!</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-11</h2>
+            <h4>price: 1100TK</h4>
+            <p>Porro asperiores magni quia totam, debitis culpa vero exercitationem id recusandae temporibus voluptatum ut veritatis voluptas quo quod molestias quos voluptatibus placeat magnam impedit ratione, in maxime est quam? Placeat.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img class="image" src="images/food.jpg" alt="">
+            <h2>Item-12</h2>
+            <h4>price: 1200TK</h4>
+            <p>Officia ipsum deserunt ipsam ab, assumenda at reiciendis? Suscipit, maiores? Minus, voluptatem? Nulla quidem cum dignissimos. In praesentium veritatis vero animi optio? Omnis laudantium dolorum, optio ex sunt iure error!</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+</body>
+</html>
